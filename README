@@ -1,0 +1,75 @@
+/**********************************************************
+* Project 1: Metro Simulator
+* CS 15
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make MetroSim
+     - run executable with
+            ./MetroSim stationsFile passFile [commands]
+
+
+Program Purpose:
+     Create Metro Simulation that move trains and deal with passengers 
+     going on/off the train.
+
+Acknowledgements: 
+     Leslie
+     
+
+Files: 
+
+main.cpp:
+     Create a MetroSim class variable with the data provided by the user 
+     and call the runTrain method to run the game.
+
+MetroSim.cpp:
+     Implementation of MetroSim class.  Main functionality of running the 
+     Metro Simulation: move trains and deal with passengers 
+     going on/off the train.
+
+MetroSim.h:
+     Interface of MetroSim class.
+
+stations.txt:
+     an example file containing a list of stations.
+
+test_commands.txt:
+     sample list of commands that you could give to the simulator
+
+the_metroSim:
+     reference implementation for students to see how 
+
+
+Note:  the program should handle all cases.
+
+Data Structures:
+
+     The program uses vector and list to create two arrays of queue to handle 
+     the stations and train. New passengers will be placed in the station's 
+     queue corresponding to their arrival and the train's index corresponding 
+     to their depqrture.
+
+
+Testing:
+
+Here describe the following: process of testing (unit tests), mention
+of bugs you encountered while testing, mention of testing on inputs of
+different sizes and edge cases, good description of base cases you
+considered while testing. Demonstrate a methodical approach to
+testing.  This section of your REAMDE should be very thorough for
+assignments.
+
+Note: This assignment comes partially implemented, but student must also
+create the driver and add class functionality.
+
+Part that you found most difficult:
+
+     It was challenginf at the beginning to understand the flow and concept
+     of the program as well as the input stream and output stream. But
+     everything got better after I have my program design.
+
+Time Spent: 10
